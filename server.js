@@ -6,7 +6,7 @@
 *
 * Name: Hyerang Cho        Student ID: 165832221       Date: September 15, 2023
 *
-* Online (Cyclic) URL: 
+* Online (Cyclic) URL: https://ill-fawn-cloak.cyclic.cloud
 *
 ********************************************************************************/
 
@@ -15,7 +15,7 @@ const app = express(); // obtain the "app" object
 const HTTP_PORT = process.env.PORT || 8080; // assign a port
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hyerang Cho - 165832221');
   });
 
 // start the server on the port and output a confirmation ot the console
